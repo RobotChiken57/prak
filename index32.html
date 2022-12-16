@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>86</title>
+</head>
+<body>
+    <div class="z1">
+        <div id="elem1"></div>
+        <div id="elem2"></div>
+        <div id="elem3"></div>
+    </div>
+    <br>
+    <div class="z2">
+        <div id="elem11"></div>
+        <div id="elem22"></div>
+        <div id="elem33"></div>
+    </div>
+    <div class="z3">
+        <div id="elem1"></div>
+        <div id="elem2"></div>
+        <div id="elem3"></div>
+    </div>
+
+
+    <style>
+        			.z1 #elem1, #elem2, #elem3 {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+			}
+			.z1 #elem1 {
+				background-color: #ff8888;
+				left: 30px;
+				top: 30px;
+			}
+			.z1 #elem2 {
+				background-color: #7e89eb;
+				left: 60px;
+				top: 60px;
+				z-index: 1;
+			}
+			.z1 #elem3 {
+				background-color: #4dee99;
+				left: 90px;
+				top: 90px;
+			}
+
+
+
+        	.z2 #elem11, #elem22, #elem33 {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+			}
+			.z2 #elem11 {
+				background-color: #ff8888;
+				left: 30px;
+				top: 30px;
+				z-index: 2;
+			}
+			.z2 #elem22 {
+				background-color: #7e89eb;
+				left: 60px;
+				top: 60px;
+				z-index: 1;
+			}
+			.z2 #elem33 {
+				background-color: #4dee99;
+				left: 90px;
+				top: 90px;
+			}
+
+            .z2 {
+                position: absolute;
+                top: 300px;
+            }
+
+
+            .z3 #elem1, #elem2, #elem3 {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+			}
+			.z3 #elem1 {
+				background-color: #ff8888;
+				left: 30px;
+				top: 30px;
+			}
+			.z3 #elem2 {
+				z-index: -1;
+				background-color: #7e89eb;
+				left: 60px;
+				top: 60px;
+			}
+			.z3 #elem3 {
+				background-color: #4dee99;
+				left: 90px;
+				top: 90px;
+			}
+
+            .z3 {
+                position: absolute;
+                top: 600px;
+            }
+    </style>
+
+<h1><a href="index33.html">Следующее задание >>></a></h1>
+<h1><a href="index0.html">Главная страница</a></h1>
+</body>
+</html>

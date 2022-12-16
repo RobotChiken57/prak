@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>106</title>
+</head>
+<body>
+    <div class="z1">
+        <div class="parent1">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child elem">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+        </div>
+    </div>
+
+
+    <div class="z2">
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child elem">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+        </div>
+    </div>
+
+    <div class="z3">
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child elem">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+        </div>
+    </div>
+
+
+    <style>
+        .z1 .parent1	{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 900px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid red;
+        }
+        .z1 .child {
+            width: 100px;
+            height: 60px;
+            border: 1px solid green;
+        }
+        .z1 .elem {
+            align-self: flex-end;
+        }
+
+        .z2 .parent	{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            width: 900px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid red;
+        }
+        .z2 .child {
+            width: 100px;
+            border: 1px solid green;
+        }
+        .z2 .elem {
+            align-self: center;
+        }
+
+        .z3 .parent	{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 900px;
+            height: 400px;
+            margin: 20px auto;
+            border: 1px solid red;
+        }
+        .z3 .child {
+            width: 100px;
+            height: 60px;
+            border: 1px solid green;
+        }
+        .z3 .elem {
+            align-self: center;
+        }
+
+
+    </style>
+
+<h1><a href="index45.html">Следующее задание >>></a></h1>
+<h1><a href="index0.html">Главная страница</a></h1>
+</body>
+</html>
